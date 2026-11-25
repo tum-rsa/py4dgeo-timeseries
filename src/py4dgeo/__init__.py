@@ -22,6 +22,11 @@ from py4dgeo.segmentation import (
     regular_corepoint_grid,
     temporal_averaging,
 )
+
+from py4dgeo.timeseries import (
+    SpatialTimeseries
+)
+
 from py4dgeo.util import (
     __version__,
     find_file,
